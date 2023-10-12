@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin: 2.5em 0;
+}
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.login-form label, .login-form input {
+  display: block;
+}
+
+.login-form input {
+  padding: 0.5em;
+}
+
+.banner {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #595fb9;
+  text-align: center;
+  margin: 1em;
+  
+}
+
+.bookedClass {
+  color: black;
+  
+}
+
+.submitBtn {
+  background-color: #595fb9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin: 1em;
+}
+
+.submitBtn:hover {
+  background-color: #766692;
+}
+
+.cancelBtn {
+  color: #fff;
+  background-color: #595fb9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin: 0.5em;
+
+}
+
+.cancelBtn:hover {
+  background-color: #766692;
+}
+
+.bookBtn {
+  color: #fff;
+  background-color: #595fb9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 5px 10px;
+  position: left;
+  
+}
+
+.bookBtn:hover {
+  background-color: #766692;
+}
+
+.bookList {
+  background-color: rgb(196, 196, 196);
+  margin: 1em;
+  list-style-type: none;
+  text-align: left;
+  padding-left: 1em;
+  max-width: 500px;
+}
+
+td {
+padding: 1em 2em;
+border-radius: 3px;
+background: #9BA2FF60;
+list-style-type: none;
+text-align: left;
+/* max-width: 500px; */
+}
+
+th {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  border-radius: 3px;
+  color: black;
+  padding: 4 0.4em;
+  background: #9BA2FF31;
+}
+
+
+
+.saveBtn {
+  color: #fff;
+  background-color: #595fb9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: 0.5em;
+  position: left;
+}
+
+.saveBtn:hover {
+  background-color: #766692;
+}
+
+
+.input {
+    background-color: #f0ecec;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    color: #333;
+}
+
+.table-menu {
+  text-align: center;
+}
+
+.table-menu button{
+  text-align: center;
+  padding: 0.5em 1em;
+  border: none;
+  margin: 0 0.5em;
+  border-radius: 5px;
+}
+
+.active-button {
+  background-color: #595fb9;
+  color: #fff; 
+}
+
+.inactive-button {
+  background-color: #9195ca;
+  color: #fff; 
+}
+
+
+/* Form styles*/
+.fieldset {
+    background-color: #9ba2ff31;
+    border: none;
+    padding: 2em;
+}
+
+/* Gjorde egen för h2, se längre ned */
+/* .form-row {
+  /* margin: 15px 0; */
+/* } */ 
+
+.input-group label {
+  display: block;
+}
+
+form .form-row .input-group{
+  position: relative;
+  max-width: 600px;
+}
+form .form-row .textarea{
+  height: 70px;
+}
+.input-group input {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid rgba(0,0,0, 0.12);
+  background-color: #fff;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+table{
+  width: 100%;
+  background-color: #9BA2FF31;
+}
+
+
+/* .inputForm {
+  display: flex;
+  align-items: center;
+  min-width: 900px;
+ 
+} */
+
+
+@media screen and (min-width: 780px) {
+
+}
+
+
+
+
+
+
+
+
+
